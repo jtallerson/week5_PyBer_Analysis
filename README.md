@@ -2,10 +2,12 @@
 
 ![this_is_an_image](Uber_map.jpg)
 
-Overview:
+# Overview:
+
 These days ride sharing companies have become more and more common. It seems like almost every time you’re out driving your car, you see another car with a sticker representing whichever company they’re driving for. Whether you’re in an urban, suburban, or rural area; they seem to be everywhere. How do these companies keep track of how much demand is in each area and how much money there is to be made? That’s exactly what my boss V. Isualize hopes to keep track of with her own ride sharing company called Pyber. With the use of Python and data visualizations, we can gain a better understanding of how this market works!
 
-Purpose:
+# Purpose:
+
 My boss V. Isualize tasked me with doing a four-month analysis on all ride share data for Pyber between January to early May of 2019. I was given two data sets, the first is called city_data.csv which contains each city I’ll be analyzing, the number drivers, and whether the city is Urban, Suburban, or Rural. The second data set is called ride_data.csv, which includes the city of the ride, the date, the fare, and the driver. My first step was to combine these two datasets into one to more easily pull information for my analysis.
 
 ![this_is_an_image](merge.png)
@@ -40,3 +42,7 @@ My boss V. Isualize loved the work that I did, however, what she loves most is v
 Final step was to create the graph!
 
 ![this_is_an_image](graph.png)
+
+# Recommendations:
+
+Given the data that I have available to me, I would have to say that rural and suburban areas need more drivers. The price per ride increases when there are less drivers than there are rides given. Paying more than $30 (or even upwards of $50) for a ride is going to decrease consumer's incentive to ride with Pyber. Also in January, urban areas can probably have less drivers. January is a colder month and therefore a slower month for most businesses due to people staying in. We can also see that fares were consistently down that month. Urban areas (unlike suburban and rural areas) have a lower average fare per driver than average fare per ride. Which means there's so many drivers, it's decreasing the price per ride too much. Urban areas could probably get by with fewer drivers.
